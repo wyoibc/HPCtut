@@ -25,7 +25,8 @@ In simplest terms, Secure SHell protocol (or SSH) is a communication protocol th
 ```bash
 ssh username@serverID
 ```
-Where, 
+Where:
+
     - ``ssh`` is the name of the program you are invoking
 
     - ``username`` is your username on the server
