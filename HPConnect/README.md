@@ -35,12 +35,13 @@ When you connect to Teton, you will replace these terms with your own informatio
 ## Test Connection
 ### Using Putty
 When you launch Putty client, it will open up a dialogue box as follows:
+
 <center>
 <img src="putty.png" width=500>
 </center>
 
 - In the left navigation menu, select SSH, then under remote command, enter the connection command: ``ssh username@teton.uwyo.edu``.
-- This will open up a dark terminal window where you will be prompted for the two factor password.  Enter it as follows: ``MY_PASSWORD,6_DIGIT_DUO_CODE``.  So if your password was ``6%99XPE$$abc`` and the duo code was ``120201``, you will enter ````6%99XPE$$abc,120201`` and hit enter.  **You will not see cursor move as you type, this is by design.**  Also, make sure to type the comma between the two passwords.
+- This will open up a dark terminal window where you will be prompted for the two factor password.  Enter it as follows: ``MY_PASSWORD,6_DIGIT_DUO_CODE``.  So if your password was ``6%99XPE$$abc`` and the duo code was ``120201``, you will enter ``6%99XPE$$abc,120201`` and hit enter.  **You will not see cursor move as you type, this is by design.**  Also, make sure to type the comma between the two passwords.
 - You should be logged in at this point.
 
 ### In MacOS or Linux
