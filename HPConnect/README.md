@@ -27,11 +27,11 @@ ssh username@serverID
 ```
 Where:
 
-    - ``ssh`` is the name of the program you are invoking
+- ``ssh`` is the name of the program you are invoking
 
-    - ``username`` is your username on the server
+- ``username`` is your username on the server
 
-    - ``serverID`` is either IP address (e.g. ``111.222.333.444``) or a proper domain name e.g. ``teton.uwyo.edu``
+- ``serverID`` is either IP address (e.g. ``111.222.333.444``) or a proper domain name e.g. ``teton.uwyo.edu``
 
 When you connect to Teton, you will replace these terms with your own information.
 
